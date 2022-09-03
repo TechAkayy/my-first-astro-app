@@ -2,7 +2,7 @@ import { fileURLToPath, URL } from 'url'
 
 import { defineConfig } from 'vite'
 
-import { liveDesigner } from '@pinegrow/vite-plugin'
+import { liveDesigner } from '@pinegrow/vite-plugin/dev'
 // import pkg from '@pinegrow/vite-plugin'
 // const { liveDesigner } = pkg
 

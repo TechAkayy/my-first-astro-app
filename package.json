@@ -1,20 +1,21 @@
 {
-  "name": "@example/basics",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^1.1.5"
-  },
-  "devDependencies": {
-    "@astrojs/vue": "^1.0.0",
-    "@pinegrow/vite-plugin": "^2.0.0-alpha.25",
-    "vue": "^3.2.38"
-  }
+	"name": "@example/basics",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"astro": "1.0.0-rc.7"
+	},
+	"devDependencies": {
+		"@astrojs/vue": "^1.0.0",
+		"@pinegrow/vite-plugin": "file:/Users/ahmed.kaja/Pinegrow/PinegrowCode/frameworks/vue-svelte-designer/packages/vite-plugin",
+		"vue": "^3.2.38"
+	}
 }
