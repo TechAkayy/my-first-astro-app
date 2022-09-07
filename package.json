@@ -16,6 +16,7 @@
 	"devDependencies": {
 		"@astrojs/vue": "^1.0.0",
 		"@pinegrow/vite-plugin": "file:/Users/ahmed.kaja/Pinegrow/PinegrowCode/frameworks/vue-svelte-designer/packages/vite-plugin",
+		"iles": "^0.8.4",
 		"vue": "^3.2.38"
 	}
 }

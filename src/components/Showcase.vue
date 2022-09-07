@@ -1,8 +1,4 @@
 <script setup>
-	import logos from '../images/framework-logos.png'
-	import logosSmall from '../images/framework-logos-small.png'
-	import { ref } from 'vue'
-
 	const props = defineProps({
 		heading: {
 			type: String,
@@ -23,14 +19,7 @@
 			<h1>{{ heading }}</h1>
 			<p>{{ text }}</p>
 		</div>
-		<div class="showcase-img">
-			<img class="logos" :src="logos" alt="" />
-			<img class="logos-small" :src="logosSmall" alt="" />
-		</div>
-
-		<p class="showcase-demo">
-			<small>This is a demo website used for the YouTube crash course</small>
-		</p>
+		<slot />
 	</section>
 </template>
 
@@ -67,20 +56,5 @@
 	.showcase p {
 		font-size: 24px;
 		margin-bottom: 20px;
-	}
-
-	.showcase-img {
-		text-align: center;
-	}
-
-	.showcase-img img {
-		border-radius: 10px;
-		margin: auto;
-	}
-
-	.showcase-demo {
-		color: #fff;
-		text-align: center;
-		font-weight: 300;
 	}
 </style>
